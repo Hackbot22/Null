@@ -51,27 +51,27 @@ reset:
     jmp output
 
 output:
-    lda #"P"
+    lda #$50
     jmp charmaker
-    lda #"O"
+    lda #$4F
     jmp charmaker
-    lda #"L"
+    lda #$4C
     jmp charmaker
-    lda #"I"
+    lda #$49
     jmp charmaker
-    lda #"C"
+    lda #$43
     jmp charmaker
-    lda #"E"
+    lda #$45
     jmp charmaker
-    lda #"C"
+    lda #$43
     jmp charmaker
-    lda #"H"
+    lda #$48
     jmp charmaker
-    lda #"I"
+    lda #$49
     jmp charmaker
-    lda #"L"
+    lda #$4C
     jmp charmaker
-    lda #"D"
+    lda #$44
     jmp charmaker
 
 loop:
